@@ -1,0 +1,11 @@
+development:
+  LLM:
+    GEMINI:
+      MAX_TOKENS: 16384
+      MODEL: gemini-2.0-flash-lite
+      TESTAI_TEMPERATURE: 0.1
+      TOKEN_BUFFER: 0
+    OPEN_AI:
+      EMBEDDINGS_MODEL: text-embedding-ada-002
+      MODEL: gpt-4o-mini
+  LLM_PROVIDER: gemini

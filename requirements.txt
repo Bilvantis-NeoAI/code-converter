@@ -1,0 +1,10 @@
+dynaconf==3.2.11
+fastapi==0.116.1
+langchain==0.3.26
+langchain_google_genai==2.1.8
+openai==1.97.0
+starlette==0.47.2
+langchain-community
+python-multipart
+uvicorn
+streamlit
