@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  cobol-converter:
+    build: .
+    container_name: cobol-converter
+    ports:
+      - "8502:8502"
+    restart: always 
